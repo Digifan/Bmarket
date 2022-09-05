@@ -1,0 +1,28 @@
+{
+  "1204842986" : {
+    "full_name" : "Mykola Gagarin",
+    "phone" : "+380(50)345-50-12",
+    "address" : {
+      "country" : "Ukraine",
+      "city" : "Kharkiv",
+      "zip" : "61000",
+      "street" : "Gagarina",
+      "houseNumber" : "100",
+      "apartment" : "45b"
+    },
+    "moneyAmount" : 60.0
+  },
+  "-1623795043" : {
+    "full_name" : "Alex Popov",
+    "phone" : "+380(67)234-67-87",
+    "address" : {
+      "country" : "Ukraine",
+      "city" : "Kyiv",
+      "zip" : "10000",
+      "street" : "Khreschatyk",
+      "houseNumber" : "200",
+      "apartment" : "44"
+    },
+    "moneyAmount" : 3444.0
+  }
+}

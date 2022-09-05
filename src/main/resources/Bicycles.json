@@ -1,0 +1,38 @@
+{
+  "-1624469121" : {
+    "brand" : "Ardis",
+    "model" : "Titan",
+    "purpose" : "usual",
+    "type" : "hard tail",
+    "break_type" : "disc",
+    "frame_material" : "aluminium",
+    "frame_size" : 19.0,
+    "wheel_size" : 27.5,
+    "price" : 300.0,
+    "speed_number" : 24
+  },
+  "-1566360249" : {
+    "brand" : "Ukraina",
+    "model" : "Dorozhnik",
+    "purpose" : "Roadrunner",
+    "type" : "without amortization",
+    "break_type" : "drum",
+    "frame_material" : "steel",
+    "frame_size" : 20.0,
+    "wheel_size" : 26.0,
+    "price" : 150.0,
+    "speed_number" : 1
+  },
+  "-1777272217" : {
+    "brand" : "Corrado",
+    "model" : "Kanio",
+    "purpose" : "Mountain",
+    "type" : "hard tail",
+    "break_type" : "V-Brake",
+    "frame_material" : "aluminium",
+    "frame_size" : 20.0,
+    "wheel_size" : 26.0,
+    "price" : 200.0,
+    "speed_number" : 21
+  }
+}
