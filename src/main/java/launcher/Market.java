@@ -8,33 +8,26 @@ import entity.Bicycle;
 import entity.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-
-import java.net.URISyntaxException;
-import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Scanner;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-
 import static api.Utils.*;
 import static db.ReadFileSingleton.getInstance;
 import static db.Rundb.saveToDb;
 
 public class Market  {
     private static final Logger logger = LoggerFactory.getLogger(Market.class);
-    public static void main(String[] args) throws SQLException, URISyntaxException {
+    public static void main(String[] args) throws SQLException {
 
         HashMap<Integer, Customer> customersList;
         HashMap<Integer, Bicycle> productsList;
         HashMap<Integer, HashSet<Integer>> orderBook;
         HashMap<Integer, HashSet<Integer>> buyerList;
         int productId, userId;
-        System.out.println(Paths.get((Objects.requireNonNull(Market.class.getClassLoader().
-               getResource("logback.xml"))).toURI()));
+
         /*Bicycle bicycle1 = new Bicycle(
                 "Ukraina", "Dorozhnik", "Roadrunner", "without amortization",
                 "drum", "steel", 20d, 26d, 150d, 1);
