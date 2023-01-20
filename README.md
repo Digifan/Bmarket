@@ -1,2 +1,2 @@
 # Bmarket
-my console internet shop
+my backend for a bicycle internet shop
